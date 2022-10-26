@@ -1,26 +1,38 @@
 {
-  "name": "passport-http",
-  "version": "0.3.0",
+  "name": "passport-digest",
+  "version": "0.1.0",
   "description": "HTTP Basic and Digest authentication strategies for Passport.",
-  "keywords": ["passport", "http", "basic", "digest", "auth", "authn", "authentication"],
+  "keywords": [
+    "passport",
+    "http",
+    "basic",
+    "digest",
+    "auth",
+    "authn",
+    "authentication"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-http.git"
+    "url": "git://github.com/devfans/passport-digest.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-http/issues"
+    "url": "https://github.com/devfans/passport-digest/issues"
   },
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Jared Hanson, Stefan Liu",
+    "email": "stefanliu@outlook.com",
+    "url": "https://github.com/devfans/passport-digest"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib/passport-http",
   "dependencies": {
+    "js-sha256": "^0.9.0",
+    "js-sha512": "^0.8.0",
     "passport-strategy": "1.x.x"
   },
   "devDependencies": {
@@ -30,5 +42,7 @@
   "scripts": {
     "test": "NODE_PATH=lib make test"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }

@@ -1,3 +1,29 @@
+Forked from https://github.com/jaredhanson/passport-http to support SHA-256 and SHA-512-256 algorithm.
+
+Renamed package name to `passport-digest`
+
+MIT license consitent with the upstream.
+
+# Passport-Digest
+
+[![Join the chat at https://gitter.im/devfans/passport-digest](https://badges.gitter.im/devfans/passport-digest.svg)](https://gitter.im/devfans/passport-digest?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Build Status][travis-image]][travis-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
+
+
+[npm-image]: https://img.shields.io/npm/v/passport-digest.svg
+[npm-url]: https://npmjs.org/package/passport-digest
+[travis-image]: https://img.shields.io/travis/devfans/passport-digest/master.svg
+[travis-url]: https://travis-ci.org/devfans/passport-digest
+[coveralls-image]: https://img.shields.io/coveralls/devfans/passport-digest/master.svg
+[coveralls-url]: https://coveralls.io/r/devfans/passport-digest?branch=master
+[downloads-image]: https://img.shields.io/npm/dm/passport-digest.svg
+[downloads-url]: https://npmjs.org/package/passport-digest
+
+
+
 # Passport-HTTP
 
 HTTP Basic and Digest authentication strategies for [Passport](https://github.com/jaredhanson/passport).
